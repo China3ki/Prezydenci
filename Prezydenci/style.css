@@ -1,0 +1,271 @@
+body {
+    background-color: #3F3F3F;
+    margin:0;    
+    min-height:1500px ;
+    
+}
+
+header > h1 {
+    font-family: 'Noto Serif', serif;
+    font-size:48px;
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.mainnavbar {
+    background-color: goldenrod;
+    text-align: center;
+}
+.mainlist {
+    margin: 0;
+    list-style-type: none;    
+    padding: 20px;
+    min-height: 40px;
+    line-height: 200%;
+    display:flex;
+    justify-content:center;
+   
+}
+ nav > ul.mainlist > li {
+    display: inline-block;
+    padding: 10px;   
+    border-right:2px groove black;
+}
+li:first-child
+{
+    border-left:2px groove black;
+}
+a:hover {
+    color:black;
+
+}
+ul.mainlist a {
+    text-decoration: none;
+    color:white;
+}
+.paragraphfirst {
+    font-weight: 500;
+}
+.firstpart {
+    text-align:center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:white;
+}
+.authors {
+    padding: 20px;
+    margin-top: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: #D8C4A4;
+    border:20px solid black;
+    border-radius: 50px;
+}
+.authors a {
+    opacity: 0.9;
+}
+.authors a:hover {
+    opacity: 1;
+}
+.picture1 {
+    border:2px solid rgb(46, 65, 82);
+    border-radius: 20px;
+    padding:4px;
+    width: 215px;
+    height: 250px;
+}
+.presidents {
+    color:white;
+    font-size: 30px;
+}
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 35px;
+
+    
+}
+.flag img {
+    width:60px;
+    height: 60px;
+    padding:10px;
+  
+}
+
+.authors > figure {
+    display: inline-block;
+    padding:0 ;
+    
+}
+figcaption {
+    margin-top:8px ;
+    padding:0px;
+    text-align: center;
+    font-size:20px
+}
+.usaPresident {
+    display: flex;
+    border: 10px solid whitesmoke ;
+    border-radius: 20px;
+    align-items: center;
+    margin-right:200px;
+    margin-left:200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    background: linear-gradient(90deg, #041E42 20%, #9b1c2c 100%);
+   
+}
+.usaPresident h2 {
+    color:white;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 800;
+    
+}
+.pictureSmall {      
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.paragraphusaPresident {
+    padding-left: 20px;
+    font-size:20px;
+    text-align: center;
+    color:white;
+}
+.h2Small {
+    font-size: 25px;
+}
+header > h2 {
+    text-align: center;
+    color:white;
+    font-size: 35px;
+}
+.paragraphpolishPresident {
+    padding-left: 20px;
+    font-size:20px;
+    text-align: center;
+    color:black;
+}
+.polishPresident {
+    color:black;
+    display: flex;
+    border: 10px solid black ;
+    border-radius: 20px;
+    align-items: center;
+    margin-right:200px;
+    margin-left:200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffffff 50%, #ff0000 100%)
+   
+}
+.polishPresident h2 {
+    color:black;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 800;
+}
+.footer {
+    color:white;
+    background-color:black ;
+    width:100%;
+    min-height: 60px;    
+}
+.footer p  {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+                            /* Strona stricte z prezydentami */
+
+.maindiv {
+    margin: 10px;
+    margin-left:250px;
+    margin-right: 250px;
+}
+
+.heading {
+    
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color:white;
+    border-bottom: 1px black solid;
+}
+.maincharacter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    
+}
+.pictureMain {   
+    min-width: 250px;
+    border:1px solid white;
+    text-align: center;
+    
+}
+.presidentname {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+.figure1 {
+    margin:0 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid white;
+    }
+ 
+.figcaptionPresident {
+    font-size:15px;
+}
+.paragraphmain {
+    margin: 0;
+    padding-right: 20px;
+    
+}
+
+.birth {
+    display: flex;
+    font-size: 12px; 
+    margin: 1px;
+}
+.div1 {
+    padding: 10px;
+    background-color:#eee;
+    text-align: left;
+}
+.div2 {
+    padding:10px;
+    background-color: #D8C4A4;
+    text-align: left;
+}
+.div12 {
+    padding-top: 5px;
+}
+.numberPresident {
+    color:white;
+    border-top:1px white solid;
+    padding:5px;
+    font-size: 15px;
+}
+.cos {
+    border-top: 1px solid black;
+    background-color: white;
+    padding: 5px;
+}
