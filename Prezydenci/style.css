@@ -207,7 +207,7 @@ header > h2 {
     border-bottom: 1px black solid;
 }
 .mainDiv {
-display: flex;
+
 column-gap: 0px;
 
 
@@ -215,10 +215,10 @@ column-gap: 0px;
 }
 .paragraf{
     margin:0px;
-    margin-right: 15px;
+    text-align: justify;
 }
 table  {
-   
+    float:right;
     width: 220px;
     height: 930px;
     border: 2px solid yellowgreen;  
